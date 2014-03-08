@@ -32,3 +32,4 @@ sp_board
 ========
 
 Board gem for Indian schools
+Created by Amogh Kulkarni and Praveen Sah
