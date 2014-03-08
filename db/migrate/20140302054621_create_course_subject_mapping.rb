@@ -1,8 +1,8 @@
 class CreateCourseSubjectMapping < ActiveRecord::Migration
   def self.up
     create_table :subject_course_mappings do |t|
-      t.integer      :subject_id
-      t.integer      :course_id
+      t.references      :subject
+      t.references      :course
       t.timestamps
     end
   end

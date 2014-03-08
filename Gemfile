@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gemspec
 gem 'standalone_migrations'
 gem 'sqlite3'
+gem "activerecord"
 #group :test do
 #  gem 'standalone_migrations'
 #end

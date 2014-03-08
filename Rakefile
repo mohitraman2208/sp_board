@@ -14,6 +14,11 @@ rescue LoadError => e
   puts "Install standalone migrations #{e.inspect}"
 end
 
+desc "Open an irb session preloaded with this sp-board"
+task :sp_console do
+  sh "irb -rubygems -I lib -r sp_board.rb"
+end
+
 #task :test do
 #  Rake::Task["test:unit"].invoke
 #end
